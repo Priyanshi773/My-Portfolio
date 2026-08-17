@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { aboutData, personalData } from '../data/portfolioData';
 import SectionHeader from '../components/SectionHeader';
-import { Code, ShieldCheck, Layout, BookOpen, GraduationCap, MapPin, Mail } from 'lucide-react';
+import { Code, ShieldCheck, Layout, BookOpen, GraduationCap, MapPin } from 'lucide-react';
 
 export default function AboutSection() {
   const icons = [Code, ShieldCheck, Layout, BookOpen];
@@ -24,9 +24,13 @@ export default function AboutSection() {
           transition={{ duration: 0.4 }}
           className="lg:col-span-7 glass-card p-6 sm:p-8 rounded-2xl relative overflow-hidden"
         >
-          <div className="flex items-center gap-3 mb-6 pb-4 border-b border-slate-800">
-            <div className="w-10 h-10 rounded-xl bg-cyan-950/70 border border-cyan-500/30 flex items-center justify-center text-cyan-400 font-mono font-bold text-sm">
-              PS
+          <div className="flex items-center gap-3.5 mb-6 pb-4 border-b border-slate-800">
+            <div className="w-12 h-12 rounded-xl overflow-hidden border border-cyan-500/40 p-[1px] bg-cyan-950/70 shrink-0">
+              <img
+                src="/priyanshi.jpg"
+                alt="Priyanshi Saini"
+                className="w-full h-full object-cover rounded-[10px]"
+              />
             </div>
             <div>
               <h3 className="text-lg font-bold text-white tracking-tight">

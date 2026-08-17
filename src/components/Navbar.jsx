@@ -61,10 +61,12 @@ export default function Navbar() {
           onClick={(e) => handleNavClick(e, '#home')}
           className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-cyan-500 rounded-lg p-1"
         >
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-cyan-500 to-slate-800 p-[1px] flex items-center justify-center shadow-md">
-            <div className="w-full h-full bg-[#090d16] rounded-[11px] flex items-center justify-center group-hover:bg-cyan-950/40 transition-colors">
-              <span className="font-mono font-bold text-sm text-cyan-400">PS</span>
-            </div>
+          <div className="w-9 h-9 rounded-xl overflow-hidden border border-cyan-500/50 p-[1px] bg-slate-900 shadow-md">
+            <img
+              src="/priyanshi.jpg"
+              alt="Priyanshi Saini"
+              className="w-full h-full object-cover rounded-[9px]"
+            />
           </div>
           <div className="flex flex-col">
             <span className="font-semibold text-white tracking-tight text-sm sm:text-base group-hover:text-cyan-400 transition-colors">
@@ -109,7 +111,7 @@ export default function Navbar() {
           <a
             href="#contact"
             onClick={(e) => handleNavClick(e, '#contact')}
-            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-semibold text-white bg-slate-800 hover:bg-slate-700 border border-slate-700/80 hover:border-cyan-500/50 transition-all duration-200 shadow-sm"
+            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg text-xs font-semibold text-white bg-slate-800 hover:bg-slate-700 border border-slate-700/80 hover:border-cyan-500/50 transition-all duration-200 shadow-sm cursor-pointer"
           >
             <span>Let's Connect</span>
             <ArrowUpRight className="w-3.5 h-3.5 text-cyan-400" />
