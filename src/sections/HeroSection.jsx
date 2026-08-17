@@ -151,7 +151,7 @@ export default function HeroSection({ onShowToast }) {
                   {/* Inside Photo Tag */}
                   <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between p-2 rounded-lg bg-slate-900/85 backdrop-blur-md border border-slate-700/80 text-xs">
                     <span className="font-semibold text-white font-mono">Priyanshi Saini</span>
-                    <span className="text-[11px] font-mono text-cyan-400">GWEC Ajmer</span>
+                    <span className="text-[11px] font-mono text-cyan-400">GWECA Ajmer</span>
                   </div>
                 </div>
               </div>

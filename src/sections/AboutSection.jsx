@@ -53,7 +53,7 @@ export default function AboutSection() {
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4 text-cyan-400 shrink-0" />
-              <span>GWEC, Ajmer</span>
+              <span>GWECA, Ajmer</span>
             </div>
           </div>
         </motion.div>
