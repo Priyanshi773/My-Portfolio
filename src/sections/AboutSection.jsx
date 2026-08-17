@@ -10,7 +10,7 @@ export default function AboutSection() {
   return (
     <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
       <SectionHeader
-        tag="Overview"
+        tag="About Me"
         title="About Me"
         description="A snapshot of my background, focus areas, and technical expertise."
       />

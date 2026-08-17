@@ -1,9 +1,9 @@
 export const personalData = {
   name: "Priyanshi Saini",
-  role: "Full Stack Developer",
+  role: "Software Engineer",
   status: "Open to Internships & Roles",
-  tagline: "B.Tech Computer Science Student & Full Stack Developer",
-  shortIntro: "I build responsive and scalable web applications using modern web technologies.",
+  tagline: "B.Tech Computer Science Student & Software Engineer",
+  shortIntro: "I build responsive and scalable web applications using modern technologies.",
   email: "23cse085@gweca.ac.in",
   phone: "7014252203",
   location: "Ajmer, Rajasthan, India",
@@ -14,23 +14,23 @@ export const personalData = {
 
 export const aboutData = {
   summary:
-    "Full Stack Developer with hands-on experience in building web applications using React.js, Node.js, Express.js, and MongoDB. Skilled in developing REST APIs, implementing secure authentication, and creating responsive user interfaces. Passionate about building scalable applications and continuously improving software development skills.",
+    "Software Engineer with hands-on experience in building full-stack web applications using React.js, Node.js, Express.js, and MongoDB. Skilled in developing REST APIs, implementing secure authentication, and creating responsive user interfaces. Strong foundation in Data Structures & Algorithms, Object-Oriented Programming, and core computer science concepts, with a focus on building scalable and reliable software.",
   coreHighlights: [
     {
-      title: "MERN Stack Architecture",
-      description: "End-to-end development with React.js, Node.js, Express.js, and MongoDB.",
+      title: "Full-Stack Development",
+      description: "End-to-end application development using React.js, Node.js, Express.js, and MongoDB.",
     },
     {
-      title: "REST APIs & Security",
-      description: "Crafting robust endpoints, JWT authentication, OTP flows, and RBAC.",
+      title: "Backend & API Development",
+      description: "Building RESTful APIs, JWT authentication, OTP verification flows, and role-based access control.",
     },
     {
-      title: "Clean & Responsive UI",
-      description: "Building responsive, modern user interfaces with Tailwind CSS and ES6.",
+      title: "Responsive & Modern UI",
+      description: "Creating responsive user interfaces using React.js, Tailwind CSS, and modern JavaScript.",
     },
     {
-      title: "Continuous Learning",
-      description: "Strong foundation in CS fundamentals, Data Structures & Algorithms, and OOP.",
+      title: "Computer Science Fundamentals",
+      description: "Strong foundation in Data Structures & Algorithms, OOP, and core software development concepts.",
     },
   ],
 };
@@ -88,8 +88,7 @@ export const projectsData = [
       "JWT-based authentication",
       "User registration and login",
       "OTP verification",
-      "Forgot password",
-      "Reset password",
+      "Forgot & reset password",
       "Shopping module",
       "Food ordering module",
       "Brand-wise product listings",
@@ -101,6 +100,7 @@ export const projectsData = [
       "Role-based access control",
       "Admin panel",
       "RESTful APIs",
+      "Modular architecture",
     ],
     featureGroups: [
       {
@@ -109,14 +109,14 @@ export const projectsData = [
           "JWT-based authentication",
           "User registration and login",
           "OTP verification",
-          "Forgot password & Reset password",
-          "Role-based access control (RBAC)",
+          "Forgot & reset password",
+          "Role-based access control",
         ],
       },
       {
         title: "Commerce & Services",
         items: [
-          "Shopping module with brand-wise listings",
+          "Shopping module with brand-wise product listings",
           "Food ordering module",
           "Add to cart & dynamic order summary",
           "Entertainment module with session booking",
@@ -127,7 +127,7 @@ export const projectsData = [
         items: [
           "Secure RESTful APIs with Express.js",
           "Centralized Admin panel for operational control",
-          "MongoDB schemas for products, orders & bookings",
+          "Modular architecture & clean MongoDB schemas",
         ],
       },
     ],
@@ -147,7 +147,7 @@ export const projectsData = [
     badge: "API Integration",
     techStack: ["React.js", "Node.js", "Express.js", "OpenWeather API"],
     description:
-      "Developed a weather application to fetch and display real-time weather data using the OpenWeather API.",
+      "Developed a weather application that fetches and displays real-time weather data using the OpenWeather API.",
     detailedDescription:
       "A responsive weather application that connects to the OpenWeather API through a custom Node.js/Express.js backend proxy. Displays live temperature, humidity, wind metrics, and atmospheric conditions with robust error handling and intuitive UI feedback.",
     features: [
@@ -159,23 +159,23 @@ export const projectsData = [
       "Backend API integration",
       "Error handling",
       "Responsive interface",
+      "Modular architecture",
     ],
     featureGroups: [
       {
         title: "Real-Time Meteorology",
         items: [
-          "Live temperature display in Celsius/Fahrenheit",
-          "Humidity percentage & atmospheric pressure",
-          "Wind speed & direction metrics",
+          "Real-time weather data display",
+          "Temperature, humidity & wind speed metrics",
           "Dynamic weather condition indicators",
         ],
       },
       {
         title: "Backend & Resilience",
         items: [
-          "Secure Node/Express backend API integration",
-          "Rate-limit handling and graceful error states",
-          "Clean responsive UI adapted for mobile and desktop",
+          "Secure Node.js & Express.js backend API integration",
+          "Robust error handling & rate limiting support",
+          "Responsive interface & modular architecture",
         ],
       },
     ],
@@ -195,13 +195,13 @@ export const experienceData = [
     id: "ibm-skillsbuild",
     title: "Summer Internship — Front-End Web Development",
     organization: "IBM SkillsBuild Project-Based Learning Program",
-    period: "July 2025 – August 2025",
+    period: "July 2025 – August 2025 · Virtual",
     type: "Virtual",
     badge: "Project-Based Learning",
     summary:
-      "Successfully completed the IBM SkillsBuild Project-Based Learning Program focused on Front-End Web Development.",
+      "Completed the IBM SkillsBuild Project-Based Learning Program focused on Front-End Web Development.",
     details: [
-      "Successfully completed the IBM SkillsBuild Project-Based Learning Program focused on Front-End Web Development.",
+      "Completed the IBM SkillsBuild Project-Based Learning Program focused on Front-End Web Development.",
       "Developed practical projects using HTML, CSS, and JavaScript.",
       "Strengthened core web development fundamentals through hands-on project experience.",
     ],
@@ -218,9 +218,10 @@ export const educationData = [
     score: "CGPA: 8.74",
     status: "Currently Pursuing",
     highlights: [
-      "Specializing in Computer Science and Full Stack Web Technologies.",
-      "Maintaining an exceptional academic record with 8.74 CGPA.",
-      "Studying core subjects: Data Structures & Algorithms, Object-Oriented Programming (OOP), Database Management Systems.",
+      "Currently pursuing B.Tech in Computer Science.",
+      "Building expertise in software development and full-stack technologies.",
+      "Studying Data Structures & Algorithms, Object-Oriented Programming, and Database Management Systems.",
+      "Maintaining an academic record of 8.74 CGPA.",
     ],
   },
 ];

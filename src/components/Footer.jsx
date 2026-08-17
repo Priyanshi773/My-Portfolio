@@ -67,8 +67,8 @@ export default function Footer() {
       </div>
 
       <div className="max-w-6xl mx-auto mt-8 pt-6 border-t border-slate-800/60 flex flex-col sm:flex-row items-center justify-between text-slate-400 text-[11px] font-mono gap-2">
-        <span>© {new Date().getFullYear()} Priyanshi Saini. All rights reserved.</span>
-        <span>B.Tech CSE • Full Stack Developer</span>
+        <span>© 2026 Priyanshi Saini. All rights reserved.</span>
+        <span>B.Tech CSE • Software Engineer</span>
       </div>
     </footer>
   );

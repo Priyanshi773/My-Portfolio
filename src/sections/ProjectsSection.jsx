@@ -26,7 +26,7 @@ export default function ProjectsSection() {
       <SectionHeader
         tag="Featured Work"
         title="Projects & Architecture"
-        description="Comprehensive full-stack applications showcasing end-to-end implementation, security patterns, and API integrations."
+        description="Full-stack applications demonstrating software development, API integration, authentication, security, and modular architecture."
       />
 
       <div className="space-y-10">
@@ -95,7 +95,7 @@ export default function ProjectsSection() {
                       href={project.links.live}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold text-slate-950 bg-cyan-400 hover:bg-cyan-300 transition-colors shadow-sm"
+                      className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold text-slate-950 bg-cyan-400 hover:bg-cyan-300 transition-colors shadow-sm cursor-pointer"
                     >
                       <ExternalLink className="w-3.5 h-3.5" />
                       <span>Live Demo</span>
@@ -105,7 +105,7 @@ export default function ProjectsSection() {
                       href={project.links.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold text-slate-200 bg-slate-900 hover:bg-slate-800 border border-slate-700/80 transition-colors"
+                      className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs font-semibold text-slate-200 bg-slate-900 hover:bg-slate-800 border border-slate-700/80 transition-colors cursor-pointer"
                     >
                       <GithubIcon className="w-3.5 h-3.5" />
                       <span>GitHub Repo</span>

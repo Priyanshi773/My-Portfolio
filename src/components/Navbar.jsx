@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { navLinks, personalData } from '../data/portfolioData';
-import { Menu, X, ArrowUpRight, Code2 } from 'lucide-react';
+import { Menu, X, ArrowUpRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Navbar() {
@@ -16,8 +16,7 @@ export default function Navbar() {
         setIsScrolled(false);
       }
 
-      // Determine active section based on scroll position
-      const sections = navLinks.map(link => link.href.substring(1));
+      const sections = navLinks.map((link) => link.href.substring(1));
       const scrollPosition = window.scrollY + 180;
 
       for (let i = sections.length - 1; i >= 0; i--) {
@@ -72,8 +71,8 @@ export default function Navbar() {
             <span className="font-semibold text-white tracking-tight text-sm sm:text-base group-hover:text-cyan-400 transition-colors">
               {personalData.name}
             </span>
-            <span className="text-[11px] font-mono text-slate-400 hidden sm:inline-block">
-              Full Stack Dev
+            <span className="text-[11px] font-mono text-cyan-400 hidden sm:inline-block">
+              {personalData.role}
             </span>
           </div>
         </a>
@@ -106,7 +105,7 @@ export default function Navbar() {
           })}
         </nav>
 
-        {/* Action Button: Connect / Hire */}
+        {/* Action Button: Connect */}
         <div className="hidden md:flex items-center gap-3">
           <a
             href="#contact"

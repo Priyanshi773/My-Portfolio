@@ -76,7 +76,7 @@ export default function ContactSection({ onShowToast }) {
       <SectionHeader
         tag="Get in Touch"
         title="Let's Connect"
-        description="Whether you have an internship opportunity, a project to collaborate on, or just want to connect, feel free to reach out!"
+        description="Whether you have an internship opportunity, a software development project to collaborate on, or simply want to connect, feel free to reach out!"
       />
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
@@ -133,7 +133,7 @@ export default function ContactSection({ onShowToast }) {
               </div>
             </div>
             <button
-              onClick={() => handleCopy(personalData.phone, 'phone')}
+              onClick={() => handleCopy(`+91 ${personalData.phone}`, 'phone')}
               className="p-2 rounded-lg bg-slate-900/90 border border-slate-800 text-slate-400 hover:text-cyan-300 hover:border-cyan-500/40 transition-colors shrink-0 cursor-pointer"
               aria-label="Copy phone"
               title="Copy Phone"

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { personalData } from '../data/portfolioData';
 import { GithubIcon, LinkedinIcon } from '../components/SocialIcons';
-import { ArrowDown, FileDown, Code2, Sparkles, Terminal, CheckCircle2 } from 'lucide-react';
+import { ArrowDown, FileDown, CheckCircle2 } from 'lucide-react';
 
 export default function HeroSection({ onShowToast }) {
   const handleScrollToProjects = (e) => {
@@ -37,7 +37,7 @@ export default function HeroSection({ onShowToast }) {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
               </span>
-              <span>Full Stack Developer • B.Tech CSE</span>
+              <span>Software Engineer • B.Tech CSE</span>
             </motion.div>
 
             {/* Hero Name */}
@@ -60,14 +60,14 @@ export default function HeroSection({ onShowToast }) {
               {personalData.role}
             </motion.div>
 
-            {/* Short Intro - Strictly as requested */}
+            {/* Short Intro */}
             <motion.p
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: 0.15 }}
               className="text-base sm:text-lg text-slate-300 max-w-xl leading-relaxed mb-8 font-normal"
             >
-              "{personalData.shortIntro}"
+              {personalData.shortIntro}
             </motion.p>
 
             {/* Action Buttons: View Projects & Download Resume */}
@@ -145,7 +145,7 @@ export default function HeroSection({ onShowToast }) {
                     className="w-full h-full object-cover object-top filter brightness-[1.02] group-hover:scale-105 transition duration-500"
                     loading="eager"
                   />
-                  {/* Subtle gradient vignette at bottom */}
+                  {/* Gradient vignette */}
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent pointer-events-none" />
 
                   {/* Inside Photo Tag */}
@@ -162,10 +162,10 @@ export default function HeroSection({ onShowToast }) {
                 <span>CGPA 8.74</span>
               </div>
 
-              {/* Floating Badge 2: Tech Stack */}
+              {/* Floating Badge 2: Software Engineer */}
               <div className="absolute -bottom-3 -left-3 px-3 py-1.5 rounded-xl bg-slate-900/95 border border-slate-700 shadow-xl backdrop-blur-md text-[11px] font-mono text-slate-300 flex items-center gap-1.5">
                 <span className="w-2 h-2 rounded-full bg-cyan-400"></span>
-                <span>MERN Developer</span>
+                <span>Software Engineer</span>
               </div>
             </div>
           </motion.div>
